@@ -1,0 +1,13 @@
+model,split,n,MAE,RMSE,MAE_low_RUL_0_30,n_low_RUL_0_30,MAE_medium_RUL_31_80,n_medium_RUL_31_80,MAE_high_RUL_gt_80,n_high_RUL_gt_80
+Age (cycle only),validation_all_cycles,4070,34.19484,39.13715,35.70351,620,24.52798,1000,37.75871,2450
+Age (cycle only),validation_last_cycles,20,44.25210,45.50554,44.25210,20,,0,,0
+Age (cycle only),test_last_cycles,100,29.15442,35.13691,32.56615,25,16.15021,20,32.33244,55
+Ridge (sensors + settings),validation_all_cycles,4070,29.92864,38.38434,18.42641,620,29.35215,1000,33.07471,2450
+Ridge (sensors + settings),validation_last_cycles,20,29.33289,36.55688,29.33289,20,,0,,0
+Ridge (sensors + settings),test_last_cycles,100,23.29969,29.12746,20.87642,25,32.51259,20,21.05103,55
+MLP (sensors + settings),validation_all_cycles,4070,25.75281,35.59464,6.70806,620,23.54574,1000,31.47314,2450
+MLP (sensors + settings),validation_last_cycles,20,5.02995,6.69987,5.02995,20,,0,,0
+MLP (sensors + settings),test_last_cycles,100,22.49899,30.49913,9.35214,25,22.80621,20,28.36312,55
+MLP (+ cycle),validation_all_cycles,4070,25.14199,32.84368,7.30056,620,18.18911,1000,32.49488,2450
+MLP (+ cycle),validation_last_cycles,20,6.36141,8.81749,6.36141,20,,0,,0
+MLP (+ cycle),test_last_cycles,100,19.45782,25.59685,9.24053,25,13.35667,20,26.32064,55

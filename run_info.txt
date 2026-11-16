@@ -1,0 +1,8 @@
+Train source: 100 engines, 20631 cycles
+Selected complete train engines: 40; 7954 cycles
+Validation engines: 20; 4070 cycles
+Test: 100 engines, last row only
+Selected train ids: [3, 14, 16, 18, 20, 26, 27, 28, 30, 33, 35, 36, 39, 42, 44, 50, 52, 55, 56, 57, 58, 61, 63, 64, 65, 66, 68, 70, 75, 80, 82, 83, 85, 87, 88, 89, 90, 95, 96, 97]
+Validation ids: [np.int64(1), np.int64(5), np.int64(11), np.int64(13), np.int64(19), np.int64(23), np.int64(31), np.int64(32), np.int64(34), np.int64(40), np.int64(45), np.int64(46), np.int64(54), np.int64(71), np.int64(74), np.int64(77), np.int64(78), np.int64(81), np.int64(84), np.int64(91)]
+Features: ['operating_1', 'operating_2', 'sensor_2', 'sensor_3', 'sensor_4', 'sensor_6', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']
+No RUL clipping, no future-length features. Seed 42.
