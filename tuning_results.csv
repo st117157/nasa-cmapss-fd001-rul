@@ -1,0 +1,5 @@
+config,hidden_layers,alpha,epochs_run,best_epoch,best_validation_MAE
+large_l2_1,"(64, 32)",1.000000,61,39,22.014734
+small_l2_0p1,"(32, 16)",0.100000,95,73,22.145064
+medium_l2_0p1,"(48, 24)",0.100000,86,64,22.253638
+medium_l2_1,"(48, 24)",1.000000,66,44,22.327355

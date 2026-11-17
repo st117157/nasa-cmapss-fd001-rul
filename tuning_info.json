@@ -1,0 +1,67 @@
+{
+  "selection_metric": "MAE, all cycles of 20 held-out validation engines",
+  "selected_config": "large_l2_1",
+  "test_MAE": 19.628511091064556,
+  "test_RMSE": 25.699035000489427,
+  "fit_engines": 40,
+  "fit_cycles": 7954,
+  "validation_engines": 20,
+  "validation_cycles": 4070,
+  "test_engines": 100,
+  "seed": 42,
+  "features": [
+    "operating_1",
+    "operating_2",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21",
+    "cycle"
+  ],
+  "hyperparameters_tested": [
+    {
+      "config": "small_l2_0p1",
+      "hidden_layers": [
+        32,
+        16
+      ],
+      "alpha": 0.1
+    },
+    {
+      "config": "medium_l2_0p1",
+      "hidden_layers": [
+        48,
+        24
+      ],
+      "alpha": 0.1
+    },
+    {
+      "config": "medium_l2_1",
+      "hidden_layers": [
+        48,
+        24
+      ],
+      "alpha": 1.0
+    },
+    {
+      "config": "large_l2_1",
+      "hidden_layers": [
+        64,
+        32
+      ],
+      "alpha": 1.0
+    }
+  ],
+  "data_leakage_prevention": "All preprocessing fit on fit engines only; test labels used once after selection"
+}
