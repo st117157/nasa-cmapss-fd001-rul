@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "train_cycles": {
+    "17": 7933,
+    "42": 7954,
+    "73": 7879
+  },
+  "selected": {
+    "layers": [
+      32,
+      16
+    ],
+    "alpha": 0.1,
+    "learning_rate": 0.001
+  },
+  "max_iter": 100,
+  "models_grid": 24,
+  "models_caps": 15,
+  "test_uncapped": {
+    "MAE": 18.98932229080079,
+    "RMSE": 25.236803559514154,
+    "MAPE_nonzero_pct": 33.980958291493415,
+    "MAPE_RUL_ge10_pct": 29.7069528103273,
+    "sMAPE_pct": 32.32142710426928,
+    "MAE_RUL_0_30": 10.119917459512164,
+    "MAE_RUL_gt80": 23.800020050854176
+  },
+  "elapsed_seconds": 13.8,
+  "note": "Test evaluated only after selection using validation. MAPE excludes RUL=0."
+}

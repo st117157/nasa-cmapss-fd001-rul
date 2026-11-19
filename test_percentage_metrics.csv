@@ -1,0 +1,5 @@
+model,MAE,MAPE_percent,sMAPE_percent,n_test,zero_RUL
+Age only,29.15442,80.67065,47.85285,100,0
+Ridge sensors,23.29969,53.06804,38.25546,100,0
+MLP sensors,22.49899,36.43515,28.36490,100,0
+MLP sensors + cycle,19.45782,31.06799,29.59146,100,0
